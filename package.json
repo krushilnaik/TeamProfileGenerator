@@ -1,0 +1,13 @@
+{
+	"name": "10-team-profile-generator",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"jest": "^27.3.1"
+	}
+}
