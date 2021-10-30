@@ -41,6 +41,12 @@ test('Can get email via getEmail()', () => {
 	expect(e.getEmail()).toBe(testValue);
 });
 
+test('Throws error when invalid email is entered', () => {
+	expect(() => {
+		new Employee('Test', 100, 'not-a-valid-email');
+	}).toThrow();
+});
+
 test('getRole() should return "Employee"', () => {
 	const testValue = 'Employee';
 	const e = new Employee('Test', 1, 'test@test.com');
