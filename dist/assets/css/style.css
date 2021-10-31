@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	grid-template-rows: 7em 1fr;
+}
+
+.item {
+	background-color: white;
+	padding: 7px 10px;
+}
+
+.card {
+	width: 235px;
+	height: 285px;
+	box-shadow: 3px 3px 15px black;
+}
