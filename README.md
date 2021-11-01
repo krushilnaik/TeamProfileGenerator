@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+[Video Demonstration](https://youtu.be/XNPRJjmHEl0)
+
 ## Description
 
 Makeshift employee tracking system
@@ -31,8 +33,6 @@ npm install
 ## Usage
 
 Run `npm index` and follow prompts to add team members. Only supports Managers, Engineers, and Interns.
-
-[Video Demonstration](https://youtu.be/XNPRJjmHEl0)
 
 ## License
 
